@@ -33,6 +33,11 @@ const userSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  sales: {
+    type: Number,
+    required: true,
+    default: 0,
+  },
   thumbnail: {
     type: String,
     required: true,
