@@ -18,11 +18,11 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
   ram: {
-    type: Number,
+    type: String,
     required: true,
   },
   rom: {
-    type: Number,
+    type: String,
     required: true,
   },
   warna: {
